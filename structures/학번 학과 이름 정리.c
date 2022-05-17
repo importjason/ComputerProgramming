@@ -10,7 +10,7 @@ int main()
 
 	for (int i = 0; i < 3; i++) {
 		printf("%d 번 학생의 학번을 입력해주세요 : ", i + 1);
-		scanf_s("%s", hi[i].id,sizeof(hi[i].id));
+		scanf_s("%s", hi[i].id, sizeof(hi[i].id));
 		printf("%d 번 학생의 학과를 입력해주세요 : ", i + 1);
 		scanf_s("%s", hi[i].dept, sizeof(hi[i].dept));
 		printf("%d 번 학생의 이름을 입력해주세요 : ", i + 1);
